@@ -1,0 +1,10 @@
+{
+  "name": "ShikshaSetu - Smart Learning Platform",
+  "short_name": "ShikshaSetu",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#f7f9fc",
+  "theme_color": "#1f66ff",
+  "description": "Multilingual education platform for school and competitive exam learners.",
+  "icons": []
+}

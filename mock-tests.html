@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="mr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Mock Tests | ShikshaSetu</title><meta name="description" content="Timer based mock tests with instant result, rank and performance analytics."><link rel="stylesheet" href="assets/style.css"></head>
+<body>
+<header><div class="container nav"><div class="brand"><div class="brand-logo"></div>ShikshaSetu</div><nav class="nav-links"><a href="index.html">Home</a><a href="mock-tests.html">Mock Tests</a><a href="dashboard.html">Dashboard</a></nav></div></header>
+<main class="container section">
+<h2>Mock Test Center</h2>
+<p class="section-intro">Chapter-wise practice + full length exam simulation + auto-result + rank system.</p>
+<div class="grid g-3">
+  <article class="card"><h3>Chapter-wise Tests</h3><p>Maths, Science, History, Marathi, English विषयानुसार tests.</p><button>Start Chapter Test</button></article>
+  <article class="card"><h3>Full Exam Simulation</h3><p>Real exam-like interface with timer and negative marking.</p><button id="startMockBtn">Start 30 Min Test</button><p>Timer: <span id="testTimer" class="timer">30:00</span></p></article>
+  <article class="card"><h3>Instant Results</h3><p>Scorecard, rank and weak-topic suggestions.</p><div class="progress"><span style="width:72%"></span></div><p class="small">Percentile: 72 • India Rank: 1,342</p></article>
+</div>
+
+<section class="section">
+  <div class="mock-screen">
+    <h3>Performance Analytics</h3>
+    <canvas id="progressGraph" width="620" height="220"></canvas>
+    <p class="quote">“टेस्ट नंतरचे analysis हेच तुमचे पुढचे weapon आहे.”</p>
+  </div>
+</section>
+</main>
+<script src="js/app.js"></script>
+</body></html>
